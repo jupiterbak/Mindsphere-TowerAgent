@@ -1,0 +1,16 @@
+{
+  "name": "kanbanagent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "TowerAgent.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "tsc && node ./dist/TowerAgent.js"
+  },
+  "author": "Jupiter Bakakeu",
+  "license": "ISC",
+  "dependencies": {
+    "@mindconnect/mindconnect-nodejs": "^3.3.0",
+    "async": "^2.6.2"
+  }
+}
